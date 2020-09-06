@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_one"
+        android:icon="@drawable/ic_backup"
+        android:title="MenuOne"
+        app:showAsAction="always">
+
+    </item>
+    <item
+        android:id="@+id/menu_two"
+        android:icon="@drawable/ic_delete"
+        android:title="MenuTwo"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item
+        android:id="@+id/menu_three"
+        android:icon="@drawable/ic_settings"
+        android:title="MenuThree"
+        app:showAsAction="never">
+
+    </item>
+</menu>
